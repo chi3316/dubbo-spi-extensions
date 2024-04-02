@@ -107,7 +107,8 @@
     <properties>
         <revision>3.2.0</revision>
         <!-- Test libs -->
-        <junit_jupiter_version>5.9.3</junit_jupiter_version>
+<!--        <junit_jupiter_version>5.9.3</junit_jupiter_version>-->
+        <junit_jupiter_version>5.7.0</junit_jupiter_version>
         <awaitility_version>4.2.0</awaitility_version>
         <hazelcast_version>3.11.1</hazelcast_version>
         <hamcrest_version>2.2</hamcrest_version>
