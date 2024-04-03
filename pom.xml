@@ -107,8 +107,7 @@
     <properties>
         <revision>3.2.0</revision>
         <!-- Test libs -->
-<!--        <junit_jupiter_version>5.9.3</junit_jupiter_version>-->
-        <junit_jupiter_version>5.7.0</junit_jupiter_version>
+        <junit_jupiter_version>5.9.3</junit_jupiter_version>
         <awaitility_version>4.2.0</awaitility_version>
         <hazelcast_version>3.11.1</hazelcast_version>
         <hamcrest_version>2.2</hamcrest_version>
@@ -179,6 +178,21 @@
             <version>${junit_jupiter_version}</version>
             <scope>test</scope>
         </dependency>
+
+        <!--测试，在我的环境中各个模块的junit-jupiter由于版本问题无法正常运行。在这指定里好版本-->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.9.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-commons</artifactId>
+            <version>1.9.3</version>
+            <scope>test</scope>
+        </dependency>
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-params</artifactId>
